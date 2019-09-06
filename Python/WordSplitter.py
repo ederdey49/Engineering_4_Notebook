@@ -14,4 +14,3 @@ for i in range(0, numWords):
         letter = word[j]
         print(letter)
     print("-")
-    
