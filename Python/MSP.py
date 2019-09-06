@@ -1,5 +1,3 @@
-#SPACES cannot be guessed but have to be guessed to win
-
 text = input("Player 1, enter a word or phrase: ")
 wordArr = text.split()
 print(wordArr)
@@ -50,7 +48,6 @@ for k in range(0, len(letterArray) - 1):
         spaces.append("_")
     else:
         spaces.append(' ')
-print(letterArray)
 printSpaces()
         
 while((numHangman < 7) and (search('_', spaces) != -1)):
