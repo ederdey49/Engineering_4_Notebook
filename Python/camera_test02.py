@@ -1,4 +1,4 @@
-from picamera import PiCamera
+from picamera import PiCamera, Color
 from time import sleep
 
 camera = PiCamera()
@@ -9,6 +9,8 @@ effectsList = ['sketch', 'posterise', 'gpen', 'cartoon', 'negative', 'solarize',
 while(num < 22):
     camera.start_preview()
     camera.image_effect = effectsList[num]
+    camera.annotate_text_size = 55
+    camera.annotate_background = Color('Blue')
     camera.annotate_text = "This is effect " + effectsList[num]
     sleep(5)
     if(num2 < 5):
