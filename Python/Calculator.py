@@ -15,7 +15,7 @@ def doMath( num1, num2, op): #function that actually does the math, takes the 2 
         out = str(float(num1) % float(num2)) #return the modulo of the variables
     return out;
 
-print("Addition: " + doMath(a, b, 1)) #prints all the operations
+print("Addition: " + doMath(a, b, 1)) #prints all of the operations
 print("Subtraction: " + doMath(a, b, 2))
 print("Multiplication: " + doMath(a, b, 3))
 print("Division: " + doMath(a, b, 4))
