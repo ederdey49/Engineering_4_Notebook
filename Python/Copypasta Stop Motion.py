@@ -1,4 +1,4 @@
-from picamera import PiCamera #importing libraries 
+from picamera import PiCamera #importing various libraries 
 from time import sleep
 import RPi.GPIO as GPIO
 from gpiozero import Button
