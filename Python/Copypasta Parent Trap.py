@@ -1,4 +1,4 @@
-from gpiozero import MotionSensor #importing necessary libraries
+from gpiozero import MotionSensor #importing libraries
 from picamera import PiCamera
 from time import sleep
 import RPi.GPIO as GPIO
