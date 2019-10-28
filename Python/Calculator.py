@@ -1,5 +1,5 @@
 
-a = input("Enter first number: ") #defines the first variable as a and makes it a user input
+a = input("Enter first number: ") #asks for the user to input a number and saves it as 'a'
 b = input("Enter second number: ") #same for b
 
 def doMath( num1, num2, op): #function that actually does the math, takes the 2 variables and a number telling it what operation to do
