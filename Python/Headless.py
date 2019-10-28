@@ -1,4 +1,4 @@
-import time #importing various libraries
+import time #importing libraries
 
 import Adafruit_LSM303
 import Adafruit_GPIO.SPI as SPI
