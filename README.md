@@ -2,7 +2,7 @@
 by Ned and Lucia
 
 ## Table of Contents
-[Hello Pi](###hello-raspberry-pi-zero)
+[Hello Pi](#hello-raspberry-pi-zero)
 
 ### Hello Raspberry Pi Zero
 #### Objectives
