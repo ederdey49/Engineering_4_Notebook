@@ -3,7 +3,8 @@ by Ned and Lucia
 
 ## Table of Contents
 [Hello Pi](#hello-raspberry-pi-zero)
-[Six-Sided Number Cube Roller](#hello-python-(dice-roller))
+
+[Six-Sided Number Cube Roller](#dice-roller)
 
 ### Hello Raspberry Pi Zero
 #### Objectives
@@ -12,7 +13,7 @@ For this assignment, we had to set up our Raspberry Pi and code it to make the P
 #### Lessons Learned
 During this assignment, we learned some basics in Bash and how the Pi terminal works, as well as how to set up the Pi and attach it to the monitor. 
 
-### Hello Python (Dice Roller)
+### Dice Roller
 #### Objectives
 The objective of this assignment was to make a little program that, when the user presses enter, displays a random number between 1 and 6, like a dice roll. Code found [here](https://github.com/lcrosby13/Engineering_4_Notebook/blob/master/Python/DiceRoller.py).
 
@@ -32,17 +33,17 @@ From this assignment, we learned some basics of how Python works, because in pre
 
 ### MSP
 
-### GPIO Pins - Bash
+### GPIO Pins Bash
 
-### GPIO Pins - Python
+### GPIO Pins Python
 
-### GPIO Pins - SSH
+### GPIO Pins SSH
 
 ### Hello Flask
 
-### GPIO Pins - Flask
+### GPIO Pins Flask
 
-### GPIO Pins - I2C
+### GPIO Pins I2C
 
 ### Headless
 
@@ -50,6 +51,6 @@ From this assignment, we learned some basics of how Python works, because in pre
 
 ### Hack Your Stuff
 
-### Copypasta - Parent Detector
+### Copypasta Parent Detector
 
-### Copypasta - Stop Motion
+### Copypasta Stop Motion
