@@ -2,9 +2,11 @@
 by Ned and Lucia
 
 ## Table of Contents
-[Hello Pi](#hello-raspberry-pi-zero)
+[Hello World Generator](#hello-raspberry-pi-zero)
 
 [Six-Sided Number Cube Roller](#dice-roller)
+
+[Somehow So Much Worse Than Just a Regular Calculator](#calculator)
 
 ### Hello Raspberry Pi Zero
 #### Objectives
@@ -22,12 +24,17 @@ From this assignment, we learned some basics of how Python works, because in pre
 
 ### Calculator
 #### Objectives
-
+The objective of this assignment was to get the pi to run 5 operations on numbers input by the user- addition, subtraction, multiplication, division, and modulo- and then return all of those results. Code found [here](https://github.com/lcrosby13/Engineering_4_Notebook/blob/master/Python/Calculator.py).
 
 #### Lessons Learned
-
+We learned more about how Python works, and more specifically about how functions work in Python, as well as the types of variables. 
 
 ### Quadratic Solver
+#### Objectives
+The objective of this assignment was to solve for the roots of a quadratic function filled in by the user. The difficulty comes from the fact that the program has to first figure out how many roots the quadratic has. Code is [here](https://github.com/lcrosby13/Engineering_4_Notebook/blob/master/Python/QuadSolver.py).
+
+#### Lessons Learned
+We learned more about Python and how variables work in Python. 
 
 ### Strings and Loops
 
