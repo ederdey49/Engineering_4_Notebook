@@ -1,17 +1,25 @@
 <!doctype html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<title>GPIO with Flask!</title>	
+<link rel="stylesheet" type="text/css"
+      href="stylesheet.css"> #the stylesheet didn't work for whatever reason so we just did the CSS here
+	<title>GPIO with Flask!</title>
 </head>
 <body style="background-color:aliceBlue;">
 <h1 style="color:grey; font-family:Verdana, sans-serif; text-align:center;">GPIO Web Control</h1>
-<h2 style="color:grey; font-family:Verdana, sans-serif; text-align:center;">{{msg}}</h2>
-<form method="POST">
+<h2 style="color:grey; font-family:Verdana, sans-serif;
+	   text-align:center;">{{msg}}</h2> #msg here carries the value it's assigned in the Python script
+<form method="POST"> #this is the post method. When this form is submitted (when the buttons are pushed) the method is run
 	<center>
-	<button style="background-color:royalBlue; font-size:40px; font-family:Verdana, sans-serif; border:none; padding:30px 40px;" type="submit" name="submitBtn1" value="on">Blue LED</button>
-	<button style="background-color:forestGreen; font-size:40px; font-family:Verdana, sans-serif; border:none; padding:30px 40px;" type="submit" name="submitBtn2" value="on">Green LED</button>
+	<button style="background-color:royalBlue; font-size:40px;
+		       font-family:Verdana, sans-serif; border:none; padding:30px 40px;"
+		type="submit" name="submitBtn1" value="on">Blue LED</button> #both buttons return the value 'on' when pushed
+	<button style="background-color:forestGreen; font-size:40px;
+		       font-family:Verdana, sans-serif; border:none; padding:30px 40px;"
+		type="submit" name="submitBtn2" value="on">Green LED</button>
 	</center>
 </form>
 </body>
 </html>
+
+#this file interacts with the Python script to make the website
