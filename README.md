@@ -8,6 +8,8 @@ by Ned and Lucia
 
 [Somehow So Much Worse Than Just a Regular Calculator](#calculator)
 
+[Fancy Quadratic Calculator](#quadratic-solver)
+
 ### Hello Raspberry Pi Zero
 #### Objectives
 For this assignment, we had to set up our Raspberry Pi and code it to make the Pi print "Hello World!" ten times- code found [here](https://github.com/lcrosby13/Engineering_4_Notebook/blob/master/Scripts/LED_Blink.sh).
