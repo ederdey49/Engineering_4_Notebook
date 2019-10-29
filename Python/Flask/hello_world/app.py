@@ -9,4 +9,4 @@ def hello_world(): #this is the function to be run
 if __name__ == "__main__":
 	app.run(host= "0.0.0.0", port = 80) #run the app so it's visible to outside computers
 	
-#this file interacts with the HTML file to create a webpage that you can visit at the pi's IP address
+#this script creates a webpage that you can visit at the pi's IP address
