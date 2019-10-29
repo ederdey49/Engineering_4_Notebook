@@ -3,6 +3,7 @@ by Ned and Lucia
 
 ## Table of Contents
 [Hello Pi](#hello-raspberry-pi-zero)
+[Six-Sided Number Cube Roller](#hello-python-(dice-roller))
 
 ### Hello Raspberry Pi Zero
 #### Objectives
