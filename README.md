@@ -41,6 +41,9 @@ We learned more about Python and how variables work in Python.
 ### Strings and Loops
 
 ### MSP
+#### Objectives
+
+#### Lessons Learned
 
 ### GPIO Pins Bash
 
