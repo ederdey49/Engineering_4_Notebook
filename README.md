@@ -39,7 +39,10 @@ The objective of this assignment was to solve for the roots of a quadratic funct
 We learned more about Python and how variables work in Python. 
 
 ### Strings and Loops
-
+#### Objectives
+The objective of this assignment was to take a string input by the user and return it as each letter separately.
+#### Lessons Learned
+We learned how to use the String.split() function, which turns a string into a list of words. We also learned how flexible Python is with variables and types, as we could easily treat an element of the word list its own list of letters. Code [here](https://github.com/lcrosby13/Engineering_4_Notebook/blob/master/Python/WordSplitter.py).
 ### MSP
 #### Objectives
 
