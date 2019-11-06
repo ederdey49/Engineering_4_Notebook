@@ -46,7 +46,7 @@ We learned how to use the String.split() function, which turns a string into a l
 
 ### MSP
 #### Objectives
-This project was a bit bigger than the others. We had to make a fully-functioning game of gangman in which one player enters a phrase, the other player guesses letters, and the computer draws the hangman (or man-shaped piñata, I guess), guessed letters, and blanks thus far.
+This project was a bit bigger than the others. We had to make a fully-functioning game of hangman in which one player enters a phrase, the other player guesses letters, and the computer draws the hangman (or man-shaped piñata, I guess), guessed letters, and blanks thus far.
 #### Lessons Learned
 We learned how to break a complex piece of code into multiple more manageable methods that can be called throughout the program. Code [here](https://github.com/lcrosby13/Engineering_4_Notebook/blob/master/Python/MSP.py).
 
@@ -72,26 +72,31 @@ We learned how to use an SSH app to connect to our Pi's IP address over Wifi. We
 #### Objectives
 We learned to use Flask, which lets us host a webpage on our Pi's IP address that can be accessed by other computers.
 #### Lessons Learned
-We learned how to use Flask to create a really basic webpage (it literally just says "hello world!". Code [here](https://github.com/lcrosby13/Engineering_4_Notebook/blob/master/Python/Flask/hello_world/app.py).
+We learned how to use Flask to create a really basic webpage (it literally just says "hello world!"). Code [here](https://github.com/lcrosby13/Engineering_4_Notebook/blob/master/Python/Flask/hello_world/app.py).
+
 ### GPIO Pins Flask
 #### Objectives
-
+This one was a good bit harder. We made a webpage with two buttons that could actually turn the LEDs on and off and tell the user which are on by communicating with the Pi. We needed both a Python script and an HTML file.
 #### Lessons Learned
+We learned a lot of HTML and CSS and got more familiar with Flask, which is really hard to use. We learned how to send information back and forth between the Python script and the HTML file through the webpage. Python code [here](https://github.com/lcrosby13/Engineering_4_Notebook/blob/master/Python/Flask/gpio/app.py) and HTML code [here](https://github.com/lcrosby13/Engineering_4_Notebook/blob/master/Python/Flask/gpio/templates/index.html).
 
 ### GPIO Pins I2C
 #### Objectives
-
+We had to use an accelerometer to take measurements and a small LCD screen to display the directional components of acceleration.
 #### Lessons Learned
+We learned some of the syntax for creating a display image on an LCD screen, and how to read the data from the accelerometer into the Pi. Code [here](https://github.com/lcrosby13/Engineering_4_Notebook/blob/master/Python/GPIO%20Pins-%20I2C.py).
 
 ### Headless
 #### Objectives
-
+For this one, we just had to do make the same setup wireless, and draw a graph of one component of acceleration on the LCD.
 #### Lessons Learned
+We learned how to power a Pi through a battery (we needed some special parts) and how to draw shapes on the LCD. Code [here](https://github.com/lcrosby13/Engineering_4_Notebook/blob/master/Python/Headless.py).
 
 ### Pi Camera
 #### Objectives
-
+We wrote three Python scripts to explore the functions of the Pi Camera. The first just opens a preview for five seconds and closes it. The second loops through all the camera's effects and takes photos with the first five in effect.
 #### Lessons Learned
+
 
 ### Hack Your Stuff
 #### Objectives
