@@ -53,6 +53,8 @@ We learned how to break a complex piece of code into multiple more manageable me
 ### GPIO Pins Bash
 #### Objectives
 Write a program that takes advantage of the Pi's GPIO (general purpose input/output) pins to turn LEDs on and off in a blinking pattern.
+#### Wiring
+We just hooked a couple LEDs up to the T-Cobbler.
 #### Lessons Learned
 We learned how to write a Bash script that can activate and deactivate GPIO pins. Code [here](https://github.com/lcrosby13/Engineering_4_Notebook/blob/master/Scripts/LED_Blink.sh).
 
@@ -83,32 +85,47 @@ We learned a lot of HTML and CSS and got more familiar with Flask, which is real
 ### GPIO Pins I2C
 #### Objectives
 We had to use an accelerometer to take measurements and a small LCD screen to display the directional components of acceleration.
+#### Wiring
+We hooked the accelerometer and the LCD up to the T-Cobbler.
 #### Lessons Learned
 We learned some of the syntax for creating a display image on an LCD screen, and how to read the data from the accelerometer into the Pi. Code [here](https://github.com/lcrosby13/Engineering_4_Notebook/blob/master/Python/GPIO%20Pins-%20I2C.py).
 
 ### Headless
 #### Objectives
 For this one, we just had to do make the same setup wireless, and draw a graph of one component of acceleration on the LCD.
+#### Wiring
+We added a battery through the Pi's battery power port.
 #### Lessons Learned
 We learned how to power a Pi through a battery (we needed some special parts) and how to draw shapes on the LCD. Code [here](https://github.com/lcrosby13/Engineering_4_Notebook/blob/master/Python/Headless.py).
 
 ### Pi Camera
 #### Objectives
-We wrote three Python scripts to explore the functions of the Pi Camera. The first just opens a preview for five seconds and closes it. The second loops through all the camera's effects and takes photos with the first five in effect.
+We wrote three Python scripts to explore the functions of the Pi Camera. The first just opens a preview for five seconds and closes it. The second loops through all the camera's effects and takes photos with the first five in effect. The third records a ten-second video.
+#### Wiring
+We plugged the camera into the Pi.
 #### Lessons Learned
-
+We learned a lot of syntax for making the camera work. Now we can take pictures and videos and stuff. Code [here](https://github.com/lcrosby13/Engineering_4_Notebook/blob/master/Python/camera_test01.py) and [here](https://github.com/lcrosby13/Engineering_4_Notebook/blob/master/Python/camera_test02.py) and [here](https://github.com/lcrosby13/Engineering_4_Notebook/blob/master/Python/camera_test03.py). Photos and videos [here](https://github.com/lcrosby13/Engineering_4_Notebook/tree/master/Python/Photos).
 
 ### Hack Your Stuff
 #### Objectives
-
+In this colorfully named assignment, we had to ruin a perfectly good door alarm so we could activate it with our Pi. The noise was extremely annoying.
+#### Wiring
+We hooked up the doorbell and an SPDT switch to the T-Cobbler. Because the GPIO pins only output 1 volt, the alarm didn't really work, so we ran its power line through a transistor.
 #### Lessons Learned
+We got some practice with reading GPIO pins in Python. We learned that we can use the Pi to add more complex functionality to basically anything that takes power. Code [here](https://github.com/lcrosby13/Engineering_4_Notebook/blob/master/Python/HackYourStuff.py).
 
 ### Copypasta Parent Detector
 #### Objectives
-
+We had to make a PIR (passive infrared) motion sensor trigger the Pi camera to take a ten-second video and save it with a date and time stamp.
+#### Wiring
+We plugged the camera into the Pi and hooker the PIR sensor up into the T-Cobbler.
 #### Lessons Learned
+We learned how to use a PIR sensor, and how to use Pyhton's datetime library to return the current date and time. Code [here](https://github.com/lcrosby13/Engineering_4_Notebook/blob/master/Python/Copypasta%20Parent%20Trap.py) and videos [here](https://github.com/lcrosby13/Engineering_4_Notebook/tree/master/Python/Photos).
 
 ### Copypasta Stop Motion
 #### Objectives
-
+We had to use the Pi camera to make a stop-motion video by taking photos and compiling them. Each time a button was pushed, we saved it with a number to keep the frames in order, and after we took all the photos, we used ffmpeg to make a video.
+#### Wiring
+We plugged the camera into the Pi and hooked up a push button to the T-Cobbler.
 #### Lessons Learned
+We learned that downloading and installing a program on the Pi takes approximately 1500 years on CHS wifi. Also, ffmpeg isn't very good at compiling videos; the framerate was never what we actually set it to, and if we just set it too low, the video wouldn't play right. Code [here](https://github.com/lcrosby13/Engineering_4_Notebook/blob/master/Python/Copypasta%20Stop%20Motion.py), frames and videos [here](https://github.com/lcrosby13/Engineering_4_Notebook/tree/master/Python/Animation).
