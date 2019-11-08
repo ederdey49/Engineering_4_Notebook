@@ -26,7 +26,7 @@ by Ned and Lucia
 
 [You Wouldn't Download A Car](#hack-your-stuff)
 
-[Just Taking Videos](#copypasta-parent-detector)
+[I Sadly Could Not Come Up With A Good Name For This One](#copypasta-parent-detector)
 
 [1500 Years Of Downloading Libraries](#copypasta-stop-motion)
 
