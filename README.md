@@ -10,6 +10,26 @@ by Ned and Lucia
 
 [Fancy Quadratic Calculator](#quadratic-solver)
 
+[Loop De Loop](#strings-and-loops)
+
+[The Death Penalty](#msp)
+
+[LED Blink But Make It Fancy](#gpio-pins-bash)
+
+[LED Blink But Make It Fancier](#gpio-pins-python)
+
+[Using Phones In Class Is Legal Now?](#gpio-pins-ssh)
+
+[LED Blink But Make It Phones](#gpio-pins-flask)
+
+[Instagram](#pi-camera)
+
+[You Wouldn't Download A Car](#hack-your-stuff)
+
+[Just Taking Videos](#copypasta-parent-detector)
+
+[1500 Years Of Downloading Libraries](#copypasta-stop-motion)
+
 ### Hello Raspberry Pi Zero
 #### Objectives
 For this assignment, we had to set up our Raspberry Pi and code it to make the Pi print "Hello World!" ten times- code found [here](https://github.com/lcrosby13/Engineering_4_Notebook/blob/master/Scripts/LED_Blink.sh).
