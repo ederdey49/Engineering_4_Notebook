@@ -26,7 +26,7 @@ by Ned and Lucia
 
 [You Wouldn't Download A Car](#hack-your-stuff)
 
-[I Sadly Could Not Come Up With A Good Name For This One](#copypasta-parent-detector)
+[Starring Lindsay Lohan and Lindsay Lohan](#copypasta-parent-detector)
 
 [1500 Years Of Downloading Libraries](#copypasta-stop-motion)
 
